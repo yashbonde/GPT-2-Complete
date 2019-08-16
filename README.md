@@ -1,6 +1,8 @@
-# NIPS-Generator
+# Transformer NIPS Generator
 
-Was bored and needed to test a simple langauge generator model, will be using it in-house at the company I work at. The code is used from the original [OpenAI repo](https://github.com/openai/gpt-2) as the functionality is pretty much the same. **The code runs on our local system and slight changes have been made (we used our internal libraries, so needed to be removes!), models will run but wrappers might be buggy (fix them will be practice for you). We use `macOS` and `ubuntu` internally so I tried to fix the paths where possible**. If you fix those, I would greatly appreciate if you send in a PR request.
+Was bored and needed to test a simple language generator model, will be using it in-house at the company I work at. The code is used from the original [OpenAI repo](https://github.com/openai/gpt-2) as the functionality is pretty much the same. **The code runs on our local system and slight changes have been made (we used our internal libraries, so needed to be removed!), models will run but wrappers might be buggy (fixing them will be practice for you). We use `macOS` and `ubuntu` internally so I tried to fix the paths where possible**. If you fix those for your use case, I would greatly appreciate if you send in a PR.
+
+We used this method to train from scratch as we needed something to be very specific to our task instead of a complete english languge generator, and using G**P**T2 meant using a huge vocabulary and processing power. Also I couldn't find a simple repo where I could train the model from scratch on custom datasets, so hacked around a bit.
 
 ## Files
 
